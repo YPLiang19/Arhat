@@ -1,0 +1,16 @@
+PODS:
+  - Arhat (1.0.0)
+
+DEPENDENCIES:
+  - Arhat (from `../`)
+
+EXTERNAL SOURCES:
+  Arhat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Arhat: 80f519cbf9374ff6ff76c3d4488a1df4b3379dce
+
+PODFILE CHECKSUM: 20711b13c515e3293ebe4f06d8116040fe581d99
+
+COCOAPODS: 1.12.1

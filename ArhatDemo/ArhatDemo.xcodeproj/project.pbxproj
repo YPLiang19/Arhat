@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89201FC727DA04C500A8AEA0 /* SomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 89201FC627DA04C500A8AEA0 /* SomClass.m */; };
+		8977D885224CC9070048A954 /* demo.arhat in Resources */ = {isa = PBXBuildFile; fileRef = 89FC7DA9224C047700AFC0AC /* demo.arhat */; };
+		899672BC224C02DC00C7DACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899672BB224C02DC00C7DACB /* Assets.xcassets */; };
+		899672BF224C02DC00C7DACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899672BD224C02DC00C7DACB /* LaunchScreen.storyboard */; };
+		899672C2224C02DC00C7DACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 899672C1224C02DC00C7DACB /* main.m */; };
+		89FC7DA6224C046800AFC0AC /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FC7D9E224C046700AFC0AC /* CustomView.m */; };
+		89FC7DA7224C046800AFC0AC /* SuperMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FC7DA1224C046800AFC0AC /* SuperMyController.m */; };
+		89FC7DA8224C046800AFC0AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FC7DA3224C046800AFC0AC /* ViewController.m */; };
+		89FC7DAD224C047800AFC0AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FC7DAA224C047700AFC0AC /* AppDelegate.m */; };
+		89FC7DAF224C048600AFC0AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FC7DAE224C048600AFC0AC /* Main.storyboard */; };
+		DE3F79F66E049DDFF99B46BA /* Pods_ArhatDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF1E1D758A521579EFC0357 /* Pods_ArhatDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89FF6DD02A8F328800F80174 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		88277412A97EEBB41B4BEEF2 /* Pods-ArhatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArhatDemo.release.xcconfig"; path = "Target Support Files/Pods-ArhatDemo/Pods-ArhatDemo.release.xcconfig"; sourceTree = "<group>"; };
+		89201FC527DA04C500A8AEA0 /* SomClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomClass.h; sourceTree = "<group>"; };
+		89201FC627DA04C500A8AEA0 /* SomClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomClass.m; sourceTree = "<group>"; };
+		899672AF224C02DB00C7DACB /* ArhatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArhatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		899672BB224C02DC00C7DACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		899672BE224C02DC00C7DACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		899672C0224C02DC00C7DACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899672C1224C02DC00C7DACB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89FC7D9E224C046700AFC0AC /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		89FC7D9F224C046700AFC0AC /* SuperMyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperMyController.h; sourceTree = "<group>"; };
+		89FC7DA0224C046700AFC0AC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89FC7DA1224C046800AFC0AC /* SuperMyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperMyController.m; sourceTree = "<group>"; };
+		89FC7DA3224C046800AFC0AC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89FC7DA4224C046800AFC0AC /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		89FC7DA9224C047700AFC0AC /* demo.arhat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo.arhat; sourceTree = "<group>"; };
+		89FC7DAA224C047700AFC0AC /* AppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = AppDelegate.m; sourceTree = "<group>"; };
+		89FC7DAB224C047700AFC0AC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89FC7DAE224C048600AFC0AC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BFF1E1D758A521579EFC0357 /* Pods_ArhatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArhatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7EA105FAAFEAAF80ABCF7D /* Pods-ArhatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArhatDemo.debug.xcconfig"; path = "Target Support Files/Pods-ArhatDemo/Pods-ArhatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		899672AC224C02DB00C7DACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3F79F66E049DDFF99B46BA /* Pods_ArhatDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCD9E4B5158F781CE6582B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA7EA105FAAFEAAF80ABCF7D /* Pods-ArhatDemo.debug.xcconfig */,
+				88277412A97EEBB41B4BEEF2 /* Pods-ArhatDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6952C940E97417B89B104D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFF1E1D758A521579EFC0357 /* Pods_ArhatDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		899672A6224C02DA00C7DACB = {
+			isa = PBXGroup;
+			children = (
+				899672B1224C02DB00C7DACB /* ArhatDemo */,
+				899672B0224C02DB00C7DACB /* Products */,
+				6952C940E97417B89B104D8C /* Frameworks */,
+				3DCD9E4B5158F781CE6582B0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		899672B0224C02DB00C7DACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				899672AF224C02DB00C7DACB /* ArhatDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		899672B1224C02DB00C7DACB /* ArhatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				89FC7DAB224C047700AFC0AC /* AppDelegate.h */,
+				89FC7DAA224C047700AFC0AC /* AppDelegate.m */,
+				89FC7DA9224C047700AFC0AC /* demo.arhat */,
+				89FC7DA4224C046800AFC0AC /* CustomView.h */,
+				89FC7D9E224C046700AFC0AC /* CustomView.m */,
+				89FC7D9F224C046700AFC0AC /* SuperMyController.h */,
+				89FC7DA1224C046800AFC0AC /* SuperMyController.m */,
+				89FC7DA0224C046700AFC0AC /* ViewController.h */,
+				89FC7DA3224C046800AFC0AC /* ViewController.m */,
+				89201FC527DA04C500A8AEA0 /* SomClass.h */,
+				89FC7DAE224C048600AFC0AC /* Main.storyboard */,
+				89201FC627DA04C500A8AEA0 /* SomClass.m */,
+				899672BB224C02DC00C7DACB /* Assets.xcassets */,
+				899672BD224C02DC00C7DACB /* LaunchScreen.storyboard */,
+				899672C0224C02DC00C7DACB /* Info.plist */,
+				899672C1224C02DC00C7DACB /* main.m */,
+			);
+			path = ArhatDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		899672AE224C02DB00C7DACB /* ArhatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899672C5224C02DC00C7DACB /* Build configuration list for PBXNativeTarget "ArhatDemo" */;
+			buildPhases = (
+				EF1DC7C38159DDD0152EDDD3 /* [CP] Check Pods Manifest.lock */,
+				899672AB224C02DB00C7DACB /* Sources */,
+				899672AC224C02DB00C7DACB /* Frameworks */,
+				899672AD224C02DB00C7DACB /* Resources */,
+				89FF6DD02A8F328800F80174 /* Embed Frameworks */,
+				F432C0735446E27F3BAE371E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArhatDemo;
+			productName = ArhatDemo;
+			productReference = 899672AF224C02DB00C7DACB /* ArhatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		899672A7224C02DA00C7DACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yongpengliang;
+				TargetAttributes = {
+					899672AE224C02DB00C7DACB = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 899672AA224C02DA00C7DACB /* Build configuration list for PBXProject "ArhatDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 899672A6224C02DA00C7DACB;
+			productRefGroup = 899672B0224C02DB00C7DACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				899672AE224C02DB00C7DACB /* ArhatDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		899672AD224C02DB00C7DACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899672BF224C02DC00C7DACB /* LaunchScreen.storyboard in Resources */,
+				899672BC224C02DC00C7DACB /* Assets.xcassets in Resources */,
+				8977D885224CC9070048A954 /* demo.arhat in Resources */,
+				89FC7DAF224C048600AFC0AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF1DC7C38159DDD0152EDDD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArhatDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F432C0735446E27F3BAE371E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArhatDemo/Pods-ArhatDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArhatDemo/Pods-ArhatDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArhatDemo/Pods-ArhatDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		899672AB224C02DB00C7DACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899672C2224C02DC00C7DACB /* main.m in Sources */,
+				89FC7DAD224C047800AFC0AC /* AppDelegate.m in Sources */,
+				89201FC727DA04C500A8AEA0 /* SomClass.m in Sources */,
+				89FC7DA6224C046800AFC0AC /* CustomView.m in Sources */,
+				89FC7DA7224C046800AFC0AC /* SuperMyController.m in Sources */,
+				89FC7DA8224C046800AFC0AC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		899672BD224C02DC00C7DACB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				899672BE224C02DC00C7DACB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		899672C3224C02DC00C7DACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		899672C4224C02DC00C7DACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		899672C6224C02DC00C7DACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7EA105FAAFEAAF80ABCF7D /* Pods-ArhatDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 59669493D8;
+				INFOPLIST_FILE = ArhatDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ypl.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = comypldemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		899672C7224C02DC00C7DACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88277412A97EEBB41B4BEEF2 /* Pods-ArhatDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 59669493D8;
+				INFOPLIST_FILE = ArhatDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ypl.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = comypldemo;
+				STRIP_STYLE = all;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		899672AA224C02DA00C7DACB /* Build configuration list for PBXProject "ArhatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899672C3224C02DC00C7DACB /* Debug */,
+				899672C4224C02DC00C7DACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899672C5224C02DC00C7DACB /* Build configuration list for PBXNativeTarget "ArhatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899672C6224C02DC00C7DACB /* Debug */,
+				899672C7224C02DC00C7DACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 899672A7224C02DA00C7DACB /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ArhatSwiftDylibTest {
+  umbrella header "Pods-ArhatSwiftDylibTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

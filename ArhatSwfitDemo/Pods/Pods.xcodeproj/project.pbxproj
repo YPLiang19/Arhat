@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4D0937C7A6665D498478A79314ADCB04 /* Arhat */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E4C7A955A63475ED0765C3D671162822 /* Build configuration list for PBXAggregateTarget "Arhat" */;
+			buildPhases = (
+				692AC18A820C6AF05D57A4749EE1C9D4 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Arhat;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		400A95A5E0157009E1B4E81D65ED2BF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		92781935709F6E0ABEB758F4A27866BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9B5F5CC84AAF84C7DA0D03BAC5D9A119 /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D5B97FEEC10193982A66627773388B /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-dummy.m */; };
+		BC96209AEB357A15F1F11662215C0F6F /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EF63DD4428E46A104E85907BB2689A /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B2FA7E70D14A99E484AA2699418271 /* Pods-ArhatSwfitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C93FA873533D66F6872EC810734D1C0 /* Pods-ArhatSwfitDemo-dummy.m */; };
+		DB8EFE8A466C247132E089E1364EF00F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ECD4B7957C40395A85CDC96B0E66AC07 /* Pods-ArhatSwfitDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C13F35CAFFF87B41230EC628F1F64F /* Pods-ArhatSwfitDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4761C27B14C2C6BED22086B4C0408A2 /* Pods-ArhatSwiftDylibTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45573E7472EC6B8801B699ADE28F3F66 /* Pods-ArhatSwiftDylibTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9770B1E75F1851FFE47E0415C3F9DE2 /* Pods-ArhatSwiftDylibTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8301167E0B0B082F602F614E1D9C78 /* Pods-ArhatSwiftDylibTest-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2CDCE0B3AE3D77F7B408116A44D56DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D0937C7A6665D498478A79314ADCB04;
+			remoteInfo = Arhat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018F3381FB231993459C57AD68C66728 /* Pods-ArhatSwiftDylibTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArhatSwiftDylibTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		01EC5B2847E3615BD78791D319ACED27 /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B1448BB7D5EA7321FAD9788F6480C8B /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests"; path = Pods_ArhatSwiftDylibTest_ArhatSwiftDylibTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA352508FC84BF8FB9D51EC103E6695 /* Pods-ArhatSwiftDylibTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArhatSwiftDylibTest.debug.xcconfig"; sourceTree = "<group>"; };
+		211449BC3AD70AFEEA24548D104A2849 /* Pods-ArhatSwfitDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArhatSwfitDemo-Info.plist"; sourceTree = "<group>"; };
+		36EF63DD4428E46A104E85907BB2689A /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-umbrella.h"; sourceTree = "<group>"; };
+		37FC1496E019547C825D26FE703131A0 /* Pods-ArhatSwfitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArhatSwfitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		42AFA16579CCD03186AB10EE4E86E044 /* Arhat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arhat.release.xcconfig; sourceTree = "<group>"; };
+		45573E7472EC6B8801B699ADE28F3F66 /* Pods-ArhatSwiftDylibTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArhatSwiftDylibTest-umbrella.h"; sourceTree = "<group>"; };
+		458D420B666328BC09DD89FCE231F325 /* Pods-ArhatSwiftDylibTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArhatSwiftDylibTest.release.xcconfig"; sourceTree = "<group>"; };
+		556ED6A4E97CA2281F15CD49DBAF323D /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79C13F35CAFFF87B41230EC628F1F64F /* Pods-ArhatSwfitDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArhatSwfitDemo-umbrella.h"; sourceTree = "<group>"; };
+		7DA1D354AAC551A06ED6090BBFEB1AFA /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F36F787626331F8F75F0C7507DE72C9 /* Pods-ArhatSwiftDylibTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArhatSwiftDylibTest.modulemap"; sourceTree = "<group>"; };
+		7F8301167E0B0B082F602F614E1D9C78 /* Pods-ArhatSwiftDylibTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArhatSwiftDylibTest-dummy.m"; sourceTree = "<group>"; };
+		86D5B97FEEC10193982A66627773388B /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-dummy.m"; sourceTree = "<group>"; };
+		8C93FA873533D66F6872EC810734D1C0 /* Pods-ArhatSwfitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArhatSwfitDemo-dummy.m"; sourceTree = "<group>"; };
+		94B20FF86FB6E62F4FB135B2C5313B5D /* Pods-ArhatSwiftDylibTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArhatSwiftDylibTest-Info.plist"; sourceTree = "<group>"; };
+		94D2D102FE84E21967972373EB7BE53A /* Pods-ArhatSwfitDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArhatSwfitDemo.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F216B49E6967E8CE08A507728C3762F /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.modulemap"; sourceTree = "<group>"; };
+		A3CE99AC2EB2A5B32667D820515D2743 /* README-CN.md */ = {isa = PBXFileReference; includeInIndex = 1; path = "README-CN.md"; sourceTree = "<group>"; };
+		AE28C0BAF2D8B191086564872DF57B4B /* Pods-ArhatSwiftDylibTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ArhatSwiftDylibTest"; path = Pods_ArhatSwiftDylibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B466544DEA6B3AF51F5F40E5BD013523 /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-Info.plist"; sourceTree = "<group>"; };
+		C8720B149DE4E79EC6D5307D816B845C /* Pods-ArhatSwfitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArhatSwfitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C9672CF075ADD6D6F586CED91A56E5F6 /* Arhat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Arhat.xcframework; sourceTree = "<group>"; };
+		CC9496A670835C5D205D38159E6FF1E8 /* Pods-ArhatSwfitDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ArhatSwfitDemo"; path = Pods_ArhatSwfitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B65D7EAB32E160F2D041BA3F7F9150 /* Pods-ArhatSwfitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArhatSwfitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D404AE3BEAB0F13027917056835819AD /* Pods-ArhatSwiftDylibTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArhatSwiftDylibTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D54DB17B6CC9885A41B31E6CB1E43D88 /* Pods-ArhatSwfitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArhatSwfitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5E7F3F9CF79608868121DE825626D05 /* Pods-ArhatSwfitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArhatSwfitDemo-frameworks.sh"; sourceTree = "<group>"; };
+		D7677F67266E68FB971B4047FC72BF00 /* Arhat-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Arhat-xcframeworks.sh"; sourceTree = "<group>"; };
+		DBE54ADABA0148A568FA344482D836AE /* Arhat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Arhat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E326FB08CAFFE1025428C9685C7F7F89 /* Arhat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arhat.debug.xcconfig; sourceTree = "<group>"; };
+		FFA2E18681478736C1C38BE25D77EDF2 /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1557EA17EA9528E8EA7ECE2115D9409D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92781935709F6E0ABEB758F4A27866BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4724A718701F33BAC6EBA23F11DEF250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8EFE8A466C247132E089E1364EF00F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B4ADC37B5F7AAF6CB6415E34857E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400A95A5E0157009E1B4E81D65ED2BF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A1175125EA8919F9FACCCCF1A2B172 /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F216B49E6967E8CE08A507728C3762F /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.modulemap */,
+				01EC5B2847E3615BD78791D319ACED27 /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-acknowledgements.markdown */,
+				7DA1D354AAC551A06ED6090BBFEB1AFA /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-acknowledgements.plist */,
+				86D5B97FEEC10193982A66627773388B /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-dummy.m */,
+				B466544DEA6B3AF51F5F40E5BD013523 /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-Info.plist */,
+				36EF63DD4428E46A104E85907BB2689A /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-umbrella.h */,
+				556ED6A4E97CA2281F15CD49DBAF323D /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.debug.xcconfig */,
+				FFA2E18681478736C1C38BE25D77EDF2 /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.release.xcconfig */,
+			);
+			name = "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests";
+			path = "Target Support Files/Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F2D47FFE6B43D8313D2B30E5A227E9B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DBE54ADABA0148A568FA344482D836AE /* Arhat.podspec */,
+				A3CE99AC2EB2A5B32667D820515D2743 /* README-CN.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		782B6003E5B5C3E3652947C2122E9003 /* Arhat */ = {
+			isa = PBXGroup;
+			children = (
+				95067ECC9C5E33AC33B38AFA8737C928 /* Frameworks */,
+				6F2D47FFE6B43D8313D2B30E5A227E9B /* Pod */,
+				9C64C543004ABEB240FF23E324B4B307 /* Support Files */,
+			);
+			name = Arhat;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8781CA45025ED1F1E409BC8D23376504 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				782B6003E5B5C3E3652947C2122E9003 /* Arhat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8F190B518FDB6CD5511CC2D019D651D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC9496A670835C5D205D38159E6FF1E8 /* Pods-ArhatSwfitDemo */,
+				AE28C0BAF2D8B191086564872DF57B4B /* Pods-ArhatSwiftDylibTest */,
+				0B1448BB7D5EA7321FAD9788F6480C8B /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95067ECC9C5E33AC33B38AFA8737C928 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9672CF075ADD6D6F586CED91A56E5F6 /* Arhat.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C64C543004ABEB240FF23E324B4B307 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7677F67266E68FB971B4047FC72BF00 /* Arhat-xcframeworks.sh */,
+				E326FB08CAFFE1025428C9685C7F7F89 /* Arhat.debug.xcconfig */,
+				42AFA16579CCD03186AB10EE4E86E044 /* Arhat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "ArhatSwfitDemo/Pods/Target Support Files/Arhat";
+			sourceTree = "<group>";
+		};
+		BD6EAC04DD7F74767B63C678ECD3848F /* Pods-ArhatSwfitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				94D2D102FE84E21967972373EB7BE53A /* Pods-ArhatSwfitDemo.modulemap */,
+				D54DB17B6CC9885A41B31E6CB1E43D88 /* Pods-ArhatSwfitDemo-acknowledgements.markdown */,
+				D2B65D7EAB32E160F2D041BA3F7F9150 /* Pods-ArhatSwfitDemo-acknowledgements.plist */,
+				8C93FA873533D66F6872EC810734D1C0 /* Pods-ArhatSwfitDemo-dummy.m */,
+				D5E7F3F9CF79608868121DE825626D05 /* Pods-ArhatSwfitDemo-frameworks.sh */,
+				211449BC3AD70AFEEA24548D104A2849 /* Pods-ArhatSwfitDemo-Info.plist */,
+				79C13F35CAFFF87B41230EC628F1F64F /* Pods-ArhatSwfitDemo-umbrella.h */,
+				37FC1496E019547C825D26FE703131A0 /* Pods-ArhatSwfitDemo.debug.xcconfig */,
+				C8720B149DE4E79EC6D5307D816B845C /* Pods-ArhatSwfitDemo.release.xcconfig */,
+			);
+			name = "Pods-ArhatSwfitDemo";
+			path = "Target Support Files/Pods-ArhatSwfitDemo";
+			sourceTree = "<group>";
+		};
+		C16FD6B7E37BA555AB9CD48AECE02504 /* Pods-ArhatSwiftDylibTest */ = {
+			isa = PBXGroup;
+			children = (
+				7F36F787626331F8F75F0C7507DE72C9 /* Pods-ArhatSwiftDylibTest.modulemap */,
+				D404AE3BEAB0F13027917056835819AD /* Pods-ArhatSwiftDylibTest-acknowledgements.markdown */,
+				018F3381FB231993459C57AD68C66728 /* Pods-ArhatSwiftDylibTest-acknowledgements.plist */,
+				7F8301167E0B0B082F602F614E1D9C78 /* Pods-ArhatSwiftDylibTest-dummy.m */,
+				94B20FF86FB6E62F4FB135B2C5313B5D /* Pods-ArhatSwiftDylibTest-Info.plist */,
+				45573E7472EC6B8801B699ADE28F3F66 /* Pods-ArhatSwiftDylibTest-umbrella.h */,
+				1EA352508FC84BF8FB9D51EC103E6695 /* Pods-ArhatSwiftDylibTest.debug.xcconfig */,
+				458D420B666328BC09DD89FCE231F325 /* Pods-ArhatSwiftDylibTest.release.xcconfig */,
+			);
+			name = "Pods-ArhatSwiftDylibTest";
+			path = "Target Support Files/Pods-ArhatSwiftDylibTest";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8781CA45025ED1F1E409BC8D23376504 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8F190B518FDB6CD5511CC2D019D651D1 /* Products */,
+				DD1B66D410FFA200588111DCF6849873 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD1B66D410FFA200588111DCF6849873 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD6EAC04DD7F74767B63C678ECD3848F /* Pods-ArhatSwfitDemo */,
+				C16FD6B7E37BA555AB9CD48AECE02504 /* Pods-ArhatSwiftDylibTest */,
+				14A1175125EA8919F9FACCCCF1A2B172 /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15373CC574486CF154E6776AFD4B32E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC96209AEB357A15F1F11662215C0F6F /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970270BF2B5FAD84C8A89570FCDE6A6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD4B7957C40395A85CDC96B0E66AC07 /* Pods-ArhatSwfitDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F005AC40E45CD2BEA079BED4915839 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4761C27B14C2C6BED22086B4C0408A2 /* Pods-ArhatSwiftDylibTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B3A1E48236FB01B607BE4B4DE6D1FE3 /* Pods-ArhatSwiftDylibTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A37C9D778D20CED57BB9AF25215104C /* Build configuration list for PBXNativeTarget "Pods-ArhatSwiftDylibTest" */;
+			buildPhases = (
+				A8F005AC40E45CD2BEA079BED4915839 /* Headers */,
+				FB2F7B9202D008A0F9FB6A4729EFCC11 /* Sources */,
+				1557EA17EA9528E8EA7ECE2115D9409D /* Frameworks */,
+				87DB032628B9DAF086864B930888402B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArhatSwiftDylibTest";
+			productName = Pods_ArhatSwiftDylibTest;
+			productReference = AE28C0BAF2D8B191086564872DF57B4B /* Pods-ArhatSwiftDylibTest */;
+			productType = "com.apple.product-type.framework";
+		};
+		C40EEF80F1E3EC5A416E6C6575F0DD06 /* Pods-ArhatSwfitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E5486449E74D91CC0F493D8822E9B3 /* Build configuration list for PBXNativeTarget "Pods-ArhatSwfitDemo" */;
+			buildPhases = (
+				970270BF2B5FAD84C8A89570FCDE6A6B /* Headers */,
+				11039AF2EF67E5E9AC7C6327C161C5F0 /* Sources */,
+				4724A718701F33BAC6EBA23F11DEF250 /* Frameworks */,
+				6D2A58A4802A74AD46BADE48C14796EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24C5AAC3C2AD97549CDFB735310E937 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArhatSwfitDemo";
+			productName = Pods_ArhatSwfitDemo;
+			productReference = CC9496A670835C5D205D38159E6FF1E8 /* Pods-ArhatSwfitDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5BBB93128F33509A10280DD559BB1CF /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800F99B16DA18CFCFA78AEF68A23D51C /* Build configuration list for PBXNativeTarget "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests" */;
+			buildPhases = (
+				15373CC574486CF154E6776AFD4B32E4 /* Headers */,
+				DDD9F780D6BBC51BD26C3753FC88A0B3 /* Sources */,
+				59B4ADC37B5F7AAF6CB6415E34857E91 /* Frameworks */,
+				F6DAC30DA76C8ECE268FE112D0A26584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests";
+			productName = Pods_ArhatSwiftDylibTest_ArhatSwiftDylibTestTests;
+			productReference = 0B1448BB7D5EA7321FAD9788F6480C8B /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8F190B518FDB6CD5511CC2D019D651D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D0937C7A6665D498478A79314ADCB04 /* Arhat */,
+				C40EEF80F1E3EC5A416E6C6575F0DD06 /* Pods-ArhatSwfitDemo */,
+				6B3A1E48236FB01B607BE4B4DE6D1FE3 /* Pods-ArhatSwiftDylibTest */,
+				C5BBB93128F33509A10280DD559BB1CF /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D2A58A4802A74AD46BADE48C14796EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DB032628B9DAF086864B930888402B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DAC30DA76C8ECE268FE112D0A26584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		692AC18A820C6AF05D57A4749EE1C9D4 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Arhat/Arhat-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Arhat/Arhat-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Arhat/Arhat-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11039AF2EF67E5E9AC7C6327C161C5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B2FA7E70D14A99E484AA2699418271 /* Pods-ArhatSwfitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD9F780D6BBC51BD26C3753FC88A0B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5F5CC84AAF84C7DA0D03BAC5D9A119 /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2F7B9202D008A0F9FB6A4729EFCC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9770B1E75F1851FFE47E0415C3F9DE2 /* Pods-ArhatSwiftDylibTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C24C5AAC3C2AD97549CDFB735310E937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Arhat;
+			target = 4D0937C7A6665D498478A79314ADCB04 /* Arhat */;
+			targetProxy = A2CDCE0B3AE3D77F7B408116A44D56DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23B96C7CFB6BCDF1DFD3DF1B26FA300F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556ED6A4E97CA2281F15CD49DBAF323D /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests/Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests/Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D7DE57725376951112FC8038F02D045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA352508FC84BF8FB9D51EC103E6695 /* Pods-ArhatSwiftDylibTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArhatSwiftDylibTest/Pods-ArhatSwiftDylibTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArhatSwiftDylibTest/Pods-ArhatSwiftDylibTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FA5B5ADBB214BADB90689F588D6D959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42AFA16579CCD03186AB10EE4E86E044 /* Arhat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8918556D4A909BAC221DEACA026675DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458D420B666328BC09DD89FCE231F325 /* Pods-ArhatSwiftDylibTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArhatSwiftDylibTest/Pods-ArhatSwiftDylibTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArhatSwiftDylibTest/Pods-ArhatSwiftDylibTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AB5A30D395458A87DCAD7936FDD47223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E326FB08CAFFE1025428C9685C7F7F89 /* Arhat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1AD8B470DE89DEF77800664FFA6E3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FC1496E019547C825D26FE703131A0 /* Pods-ArhatSwfitDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArhatSwfitDemo/Pods-ArhatSwfitDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArhatSwfitDemo/Pods-ArhatSwfitDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4F795929D8ED98A3C792B0080B9A5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA2E18681478736C1C38BE25D77EDF2 /* Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests/Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests/Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4EE5D470BD14D5C0E2630F8A0833A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8720B149DE4E79EC6D5307D816B845C /* Pods-ArhatSwfitDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArhatSwfitDemo/Pods-ArhatSwfitDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArhatSwfitDemo/Pods-ArhatSwfitDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15E5486449E74D91CC0F493D8822E9B3 /* Build configuration list for PBXNativeTarget "Pods-ArhatSwfitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AD8B470DE89DEF77800664FFA6E3AF /* Debug */,
+				C4EE5D470BD14D5C0E2630F8A0833A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A37C9D778D20CED57BB9AF25215104C /* Build configuration list for PBXNativeTarget "Pods-ArhatSwiftDylibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7DE57725376951112FC8038F02D045 /* Debug */,
+				8918556D4A909BAC221DEACA026675DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800F99B16DA18CFCFA78AEF68A23D51C /* Build configuration list for PBXNativeTarget "Pods-ArhatSwiftDylibTest-ArhatSwiftDylibTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B96C7CFB6BCDF1DFD3DF1B26FA300F /* Debug */,
+				B4F795929D8ED98A3C792B0080B9A5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C7A955A63475ED0765C3D671162822 /* Build configuration list for PBXAggregateTarget "Arhat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5A30D395458A87DCAD7936FDD47223 /* Debug */,
+				5FA5B5ADBB214BADB90689F588D6D959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

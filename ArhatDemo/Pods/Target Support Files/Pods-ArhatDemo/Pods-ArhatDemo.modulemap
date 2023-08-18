@@ -1,0 +1,6 @@
+framework module Pods_ArhatDemo {
+  umbrella header "Pods-ArhatDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
