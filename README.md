@@ -2,7 +2,7 @@ Arhat 学习讨论QQ群：766215773
 
 
 # Arhat
-Arhat 是MangoFix (https://github.com/YPLiang19/Mango)的增强版本，再MangoFix基础上删除libffi/lex/yacc容易被Apple审核不通过的工具，同时增加了对可变参数的支持和字符串格式化打印，支持定制化混淆， 需要的加QQ群：766215773， 联系群主，申请免费试用哦～
+Arhat 是MangoFix (https://github.com/YPLiang19/Mango ) 的增强版本，再MangoFix基础上删除libffi/lex/yacc容易被Apple审核不通过的工具，同时增加了对可变参数的支持和字符串格式化打印，支持定制化混淆， 需要的加QQ群：766215773， 联系群主，申请免费试用哦～
 
 
 
@@ -50,33 +50,6 @@ static NSString * const aes128Iv = @"abcdef";
 
 @end
 
-@implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    [self.view addSubview:[self genView]];
-}
-
-- (UIView *)genView{
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(50, 100, 150, 200)];
-    return view;
-}
-
-@end
-
-```
-
-```objc
-class ViewController:UIViewController{
-
-- (UIView *)genView{
-    UIView *view = UIView.alloc().initWithFrame:(CGRectMake(50, 100, 150, 200));
-    view.backgroundColor = UIColor.redColor();
-    return view;
-}
-
-}
-
 ```
 
 ## Installation
@@ -89,7 +62,7 @@ class ViewController:UIViewController{
 ### Objective-C
 
 1. `#import <Arhat/Arhat.h>`
-2. `exec Mango Script by [context evalMangoScriptWithSourceString:@""];`
+2. `exec Arhat Script by ARHATContext runWithData`
 
 ```objc
 
