@@ -89,7 +89,7 @@ class ViewController:UIViewController{
 ### Objective-C
 
 1. `#import <Arhat/Arhat.h>`
-2. `exec Mango Script by [context evalMangoScriptWithSourceString:@""];`
+2. `exec Arhat Script by ARHATContext runWithData`
 
 ```objc
 
