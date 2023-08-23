@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 __attribute__((visibility("default")))
 @interface ARHATContext : NSObject
 
+@property (nonatomic, assign, readonly)BOOL isValid;;
+
 - (instancetype)initKey1:(NSString *)key1 key2:(NSString *)key2 token:(NSString *)token NS_DESIGNATED_INITIALIZER;
 
 - (instancetype)init NS_UNAVAILABLE;
