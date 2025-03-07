@@ -46,7 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         let docPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last
         let encryptedScriptPath = docPath!.appending("/demo_encrypted.mg")
-        let context = ARHATContext.init(key1: aes128Key, key2: aes128Iv, token: "Jo+tw0IDzybTUuis5IZn+E3p3RpoewBelkKbkwD5YZmi+08BaQa+VyQhCKtPVSpa3HLVmWzfZ5vTCHOjn59WQrkypNTfL7+aRCDZn0T5TIbshESC8VfyvZU4BSQG5hFsKVyBS2PmIH707wghrHvYEJ2Aw3XzPveptciyEhQ8qYnvz26sC9xw1AzJV57zs3hPFfigwAZMmVtC2yDF0m5M5sAP3Biw5ZzilIMN3wQquVzWAS2MqTWuTaH2oZmQp/v+ViBEldJ4fGtHkPJwURymOdv0pRq2UcpAsOM2gJjQQpfvL4W/MERo+0oxbR9To3lLy+ZyD+SDYWuj8BuPrRxh7aisFpFUsszf5uA9+ZPiPeo=")
+        let context = ARHATContext.init(key1: aes128Key, key2: aes128Iv, token: "")
         
         let data = NSData.init(contentsOfFile: encryptedScriptPath)
         context.run(with: data as! Data)
