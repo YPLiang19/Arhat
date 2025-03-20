@@ -1,0 +1,6 @@
+framework module Arhat {
+  umbrella header "Arhat.h"
+  export *
+
+  module * { export * }
+}

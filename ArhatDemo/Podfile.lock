@@ -1,16 +1,16 @@
 PODS:
-  - Arhat (1.0.0)
+  - Arhat (1.0.2)
 
 DEPENDENCIES:
-  - Arhat (from `../`)
+  - Arhat
 
-EXTERNAL SOURCES:
-  Arhat:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - Arhat
 
 SPEC CHECKSUMS:
-  Arhat: 80f519cbf9374ff6ff76c3d4488a1df4b3379dce
+  Arhat: 93e674d51050e9de9466bf6b716ae512a7851777
 
-PODFILE CHECKSUM: 21eabf8f906ba09395e577364d2fcaa3970636f4
+PODFILE CHECKSUM: d5738d9301db5094901b0c9c769e1629da686d14
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.16.2
