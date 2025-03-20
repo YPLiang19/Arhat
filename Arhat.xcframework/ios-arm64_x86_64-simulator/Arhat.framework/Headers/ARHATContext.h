@@ -27,6 +27,8 @@ __attribute__((visibility("default")))
 
 - (void)setObject:(ARHATValue *)value forKeyedSubscript:(NSObject <NSCopying> *)key;
 
+- (NSString *)version;
+
 @end
 
 NS_ASSUME_NONNULL_END

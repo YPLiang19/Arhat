@@ -387,7 +387,7 @@ class SubMyController:SuperMyController {
 }
 
 - (void)btnDidClicked:(id)btn {
-    NSLog(btn);
+    NSLog(@"%@", btn);
 }
 
 }
