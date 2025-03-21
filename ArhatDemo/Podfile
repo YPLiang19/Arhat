@@ -7,7 +7,7 @@ target 'ArhatDemo' do
 
   # pod 'Arhat', :path => '../' 
 
-   pod 'Arhat', '~> 1.0.4'
+   pod 'Arhat', '~> 1.0.5'
 
   # Pods for ArhatDemo
 

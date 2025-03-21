@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "Arhat"
-s.version      = "1.0.4"
+s.version      = "1.0.5"
 s.summary      = "Arhat"
 s.description  = <<-DESC
   Arhat is a interesting sdk
