@@ -5,7 +5,7 @@
 //  Created by jerry on 2017/11/1.
 //  Copyright © 2017年 jerry. All rights reserved.
 //
-//  Version: 1.0.5
+//  Version: 1.0.6
 //
 
 #ifndef arhat_h

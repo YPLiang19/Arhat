@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		kuKvxlwD+rl/sokRKtftmzqNv5w=
+		</data>
 		<key>Headers/ARHATContext.h</key>
 		<data>
 		TE2kKzhunB0CaA1VXjdPaMTAL4I=
@@ -14,7 +18,7 @@
 		</data>
 		<key>Headers/Arhat.h</key>
 		<data>
-		JpvEHeXXMBjlvfNBip6DriCneYk=
+		9oO77ghh4ZwnNQEBSAFL3eA+4aA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -49,7 +53,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kSooWlc7QH4h862aZ7QJUjD6M5/2gEV5EQe6aOie5hE=
+			RZlf5SGtj8SXTxogG4KK0fOGTYtOpczv4wZtDmRUlQI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
