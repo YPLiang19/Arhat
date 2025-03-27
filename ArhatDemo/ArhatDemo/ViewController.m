@@ -10,6 +10,7 @@
 #import <WebKit/WebKit.h>
 #import <objc/runtime.h>
 #import "SomClass.h"
+#import "WebKitViewController.h"
 
 NSString *nativeNSString = @"nativeNSString value";
 
@@ -163,6 +164,9 @@ static NSString * const cellIdentifier = @"cell";
         case 19:
             [self nativeGlobalVariableAccess];
             break;
+        case 20:
+            [self webkitExample];
+            break;
 		default:
 			break;
 	}
@@ -172,7 +176,7 @@ static NSString * const cellIdentifier = @"cell";
 - (NSArray *)titles{
 	if (_titles == nil) {
 		_titles = @[@"可变参数与格式化打印示例",@"if语句示例",@"switch语句示例",@"for语句示例",@"forEach语句示例",@"while语句示例",
-					@"do while语句示例",@"block语句示例",@"参数传递示例",@"结构体传参示例",@"返回值示例",@"创建自定义ViewController",@"替换类方式示例",@"调用原始实现示例",@"条件注解示例",@"GCD示例",@"静态变量和取地址运算符示例",@"C函数变量示例", @"teypedef 示例", @"测试访问Native 全局变量"];
+					@"do while语句示例",@"block语句示例",@"参数传递示例",@"结构体传参示例",@"返回值示例",@"创建自定义ViewController",@"替换类方式示例",@"调用原始实现示例",@"条件注解示例",@"GCD示例",@"静态变量和取地址运算符示例",@"C函数变量示例", @"teypedef 示例", @"测试访问Native 全局变量", @"WebKit 示例"];
 	}
 	return _titles;
 }
@@ -259,4 +263,8 @@ static NSString * const cellIdentifier = @"cell";
     
 }
 
+- (void)webkitExample {
+    [self.navigationController pushViewController:[[WebKitViewController alloc] init] animated:YES];
+    
+}
 @end

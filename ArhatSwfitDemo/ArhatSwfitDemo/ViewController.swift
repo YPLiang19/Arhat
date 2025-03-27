@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     let titles = ["可变参数与格式化打印示例", "if语句示例", "switch语句示例", "for语句示例", "forEach语句示例", "while语句示例", "dowhile语句示例",
                   "block语句示例", "参数传递示例", "结构体传参示例", "返回值示例", "创建自定义ViewController","替换类方式示例", "调用原始实现示例",
-                  "条件注解示例","GCD示例", "静态变量和取地址运算符示例", "C函数变量示例", "teypedef 示例"]
+                  "条件注解示例","GCD示例", "静态变量和取地址运算符示例", "C函数变量示例", "teypedef 示例", "WebKit 示例"]
     
     let cellReuseIdentifier = "cellReuseIdentifier"
     
@@ -102,6 +102,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cfuntionVarExample()
         case 18://typedef 示例C
             typedefExaple()
+        case 19:
+            webkitExample()
+            
             
         default:
             return
@@ -236,6 +239,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func typedefExaple() {
         
     }
+    
+    @objc
+    dynamic
+    func webkitExample() {
+        self.navigationController?.pushViewController(WebKitViewController(), animated: true)
+    }
+    
 
 
 }

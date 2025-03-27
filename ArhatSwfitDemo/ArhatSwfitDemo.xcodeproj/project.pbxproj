@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		8937FB1F27D8B618001D3089 /* ArhatSwiftDylibTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8937FB1E27D8B618001D3089 /* ArhatSwiftDylibTestTests.swift */; };
 		8937FB2127D8B618001D3089 /* ArhatSwiftDylibTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8937FB1127D8B618001D3089 /* ArhatSwiftDylibTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8937FB3027D8B652001D3089 /* SuperMyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8937FB2F27D8B652001D3089 /* SuperMyController.swift */; };
+		894EAB3A2D9582FB00AD2ADA /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894EAB392D9582FB00AD2ADA /* WebKitViewController.swift */; };
 		8959A9B72A8CCA0A001A8C76 /* utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959A9B62A8CCA0A001A8C76 /* utils.m */; };
 		8959A9B92A8CCE1B001A8C76 /* ArhatSwiftDylibTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8937FB0F27D8B618001D3089 /* ArhatSwiftDylibTest.framework */; };
 		8959A9BA2A8CCE1B001A8C76 /* ArhatSwiftDylibTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8937FB0F27D8B618001D3089 /* ArhatSwiftDylibTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -86,6 +87,7 @@
 		8937FB1E27D8B618001D3089 /* ArhatSwiftDylibTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArhatSwiftDylibTestTests.swift; sourceTree = "<group>"; };
 		8937FB2027D8B618001D3089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8937FB2F27D8B652001D3089 /* SuperMyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMyController.swift; sourceTree = "<group>"; };
+		894EAB392D9582FB00AD2ADA /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
 		8959A9B52A8CCA0A001A8C76 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		8959A9B62A8CCA0A001A8C76 /* utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = utils.m; sourceTree = "<group>"; };
 		8985683A27D879CA00082302 /* ArhatSwfitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArhatSwfitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				89D3994E27D8794A00360EED /* AppDelegate.swift */,
 				89D3995027D8794A00360EED /* SceneDelegate.swift */,
 				89D3995227D8794A00360EED /* ViewController.swift */,
+				894EAB392D9582FB00AD2ADA /* WebKitViewController.swift */,
 				89D3995427D8794A00360EED /* Main.storyboard */,
 				89D3995727D8794B00360EED /* Assets.xcassets */,
 				89D3995927D8794B00360EED /* LaunchScreen.storyboard */,
@@ -480,6 +483,7 @@
 			files = (
 				8959A9B72A8CCA0A001A8C76 /* utils.m in Sources */,
 				8985683D27D879CB00082302 /* TestRuntime.m in Sources */,
+				894EAB3A2D9582FB00AD2ADA /* WebKitViewController.swift in Sources */,
 				89D3995327D8794A00360EED /* ViewController.swift in Sources */,
 				89D3994F27D8794A00360EED /* AppDelegate.swift in Sources */,
 				89D3995127D8794A00360EED /* SceneDelegate.swift in Sources */,
