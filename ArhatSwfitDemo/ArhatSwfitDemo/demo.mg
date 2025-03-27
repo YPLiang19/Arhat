@@ -327,7 +327,7 @@ class SubMyController : @SwiftModule("ArhatSwiftDylibTest") SuperMyController {
 }
 
 - (void)btnDidClicked:(id)btn {
-    NSLog(btn);
+    NSLog(@"%@",btn);
 }
 
 }
