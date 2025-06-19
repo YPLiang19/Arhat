@@ -18,21 +18,20 @@ class ViewController:UIViewController {
     NSLog(@"text1: %@, text2:%@", text1, text2);
   
       
-    // NSString initWithFormat 可变参数
-    NSString *str  = NSString.alloc().initWithFormat:(@"我是: %@", @"哈哈哈哈🤣");
+    NSString *str  = [[NSString alloc] initWithFormat:@"我是: %@--%@", @"哈哈哈哈🤣", @"arg2"];
     NSLog(@"%@", str);
     
     
     // NSMutableString appendFormat 可变参数
-    NSMutableString *strM = NSMutableString.string();
-    strM.appendFormat:(@"key1 : %@\n", @"string");
-    strM.appendFormat:(@"key2 : %d\n", 2);
-    strM.appendFormat:(@"key3 : %.2f\n", 3.4);
+    NSMutableString *strM = [NSMutableString string];
+    [strM appendFormat:@"key1 : %@\n", @"string"];
+    [strM appendFormat:@"key2 : %d\n", 2];
+    [strM appendFormat:@"key3 : %.2f\n", 3.4];
     NSLog(@"strM: %@", strM);
    
    
     // NSSet initWithObjects 可变参数
-    NSSet *set = NSSet.alloc.initWithObjects:(@(1), @(2), @(3), nil);
+    NSSet *set = [[NSSet alloc] initWithObjects:@(1), @(2), @(3), nil];
     NSLog(@"set: %@", set);
     
     
@@ -43,106 +42,106 @@ class ViewController:UIViewController {
 }
 
 - (void)ifStatementExample {
-	int a = 2;
-	int b = 2;
+    int a = 2;
+    int b = 2;
 
-	NSString *text;
-	if(a > b){
-		text = @"执行结果: a > b";
-	}else if (a == b){
-		text = @"执行结果: a == b";
-	}else{
-		text = @"执行结果: a < b";
-	}
-	self.resultView.text = text;
+    NSString *text;
+    if(a > b){
+        text = @"执行结果: a > b";
+    }else if (a == b){
+        text = @"执行结果: a == b";
+    }else{
+        text = @"执行结果: a < b";
+    }
+    self.resultView.text = text;
 }
 
 - (void)switchStatementExample {
-	int a = 2;
-	NSString *text;
-	switch(a){
-		case 1:{
-			text = @"match 1";
-			break;
-		}
-		case 2:{} //case 后面的一对花括号不可以省略
-		case 3:{
-			text = @"match 2 or 3";
-			break;
-		}
-		case 4:{
-			text = @"match 4";
-			break;
-		}
-		default:{
-			text = @"match default";
-		}
-	}
-	self.resultView.text = text;
+    int a = 2;
+    NSString *text;
+    switch(a){
+        case 1:{
+            text = @"match 1";
+            break;
+        }
+        case 2:{} //case 后面的一对花括号不可以省略
+        case 3:{
+            text = @"match 2 or 3";
+            break;
+        }
+        case 4:{
+            text = @"match 4";
+            break;
+        }
+        default:{
+            text = @"match default";
+        }
+    }
+    self.resultView.text = text;
 }
 
 - (void)forStatementExample {
-	NSString *text = @"";
-	for(int i = 0; i < 20; i++){
-		text = text + i + @", ";
-		if(i == 10){
-			break;
-		}
-	}
-	self.resultView.text = text;
+    NSString *text = @"";
+    for(int i = 0; i < 20; i++){
+        text = text + i + @", ";
+        if(i == 10){
+            break;
+        }
+    }
+    self.resultView.text = text;
 }
 
 - (void)forEachStatementExample {
-	NSArray *arr = @[@"a", @"b", @"c", @"d", @"e", @"f", @"g", @"g", @"i", @"j",@"k"];
-	NSString *text = @"";
-	for(id element in arr){
-		text = text + element + @", ";
-		if(element.isEqualToString:(@"i")){
-			break;
-		}
+    NSArray *arr = @[@"a", @"b", @"c", @"d", @"e", @"f", @"g", @"g", @"i", @"j",@"k"];
+    NSMutableString *text = [NSMutableString string];
+    for(id element in arr){
+        [text appendFormat:@"%@, ", element];
+        if(element.isEqualToString:(@"i")){
+            break;
+        }
 
-	}
-	self.resultView.text = text;
+    }
+    self.resultView.text = text;
 }
 
 - (void)whileStatementExample {
-	int a;
-	while(a < 10){
-		if(a == 5){
-			break;
-		}
-		a++;
-	}
-	self.resultView.text = @""+a;
+    int a;
+    while(a < 10){
+        if(a == 5){
+            break;
+        }
+        a++;
+    }
+    self.resultView.text = @""+a;
 }
 
 - (void)doWhileStatementExample {
-	int a = 0;
-	do{
-		a++;
-	}while(NO);
-	self.resultView.text = @""+a;
+    int a = 0;
+    do{
+        a++;
+    }while(NO);
+    self.resultView.text = @""+a;
 
 }
 
 - (void)blockStatementExample {
-	Block catStringBlock = ^NSString *(NSString *str1, NSString *str2){
-								NSString *result = str1.stringByAppendingString:(str2);
-								return result;
-							};
-	NSString *result = catStringBlock(@"hello ", @"world!");
-	self.resultView.text = result;
+    Block catStringBlock = ^NSString *(NSString *str1, NSString *str2){
+                                NSString *result = str1.stringByAppendingString:(str2);
+                                return result;
+                            };
+    NSString *result = catStringBlock(@"hello ", @"world!");
+    self.resultView.text = result;
 }
 
 
 - (void)paramPassingExampleWithBOOLArg:(BOOL)BOOLArg intArg:(int) intArg uintArg:(NSUInteger)uintArg blockArg:(Block)blockArg  objArg:(id)objArg {
-	NSString *text = @"";
-	text += @"BOOLArg:" + BOOLArg + @",\n";
-	text += @"intArg:" + intArg + @",\n";
+    NSString *text = @"";
+    text += @"BOOLArg:" + BOOLArg + @",\n";
+    text += @"intArg:" + intArg + @",\n";
     text += @"uintArg:" + uintArg + @",\n";
-	text += @"Block执行结果:" + blockArg(@"hello", @"mango") + @"\n";
-	text += @"objArg:" + objArg;
-	self.resultView.text = text;
+    text += @"Block执行结果:" + blockArg(@"hello", @"mango") + @"\n";
+    text += @"objArg:" + objArg;
+    self.resultView.text = text;
 }
 
 
@@ -152,12 +151,12 @@ class ViewController:UIViewController {
 }
 
 - (Block)returnBlockExample {
-	NSString *prefix = @"mango: ";
-	Block catStringBlock = ^NSString *(NSString *str1, NSString *str2){
-		NSString *result = str1.stringByAppendingString:(str2);
-		return prefix + result;
-	};
-	return catStringBlock;
+    NSString *prefix = @"mango: ";
+    Block catStringBlock = ^NSString *(NSString *str1, NSString *str2){
+        NSString *result = str1.stringByAppendingString:(str2);
+        return prefix + result;
+    };
+    return catStringBlock;
 }
 
 
@@ -166,14 +165,14 @@ class ViewController:UIViewController {
 }
 
 - (void)createAndOpenNewViewControllerExample {
-	SubMyController *vc = SubMyController.alloc().init();
-	self.navigationController.pushViewController:animated:(vc,YES);
+    SubMyController *vc = [[SubMyController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 
 }
 
 //类方法替换示例
 + (void)classMethodExapleWithInstance:(ViewController *)vc {
-	vc.resultView.text = @"here is Mango  Class Method " + self;
+    vc.resultView.text = @"here is Mango  Class Method " + self;
 }
 
 //条件注释示例
@@ -185,13 +184,13 @@ class ViewController:UIViewController {
 
 //GCD示例
 - (void)gcdExample {
-	dispatch_queue_t queue = dispatch_queue_create("com.plliang19.mango", DISPATCH_QUEUE_CONCURRENT);
-	dispatch_async(queue, ^{
-		NSLog(@"mango dispatch_async");
-	});
-	dispatch_sync(queue, ^{
-		NSLog(@"mango dispatch_sync");
-	});
+    dispatch_queue_t queue = dispatch_queue_create("com.plliang19.mango", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_async(queue, ^{
+        NSLog(@"mango dispatch_async");
+    });
+    dispatch_sync(queue, ^{
+        NSLog(@"mango dispatch_sync");
+    });
 }
 
 
@@ -353,48 +352,48 @@ class SubMyController:SuperMyController {
 @property (strong, nonatomic) UIView *rotateView;
 
 - (void)viewDidLoad {
-    super.viewDidLoad();
+    [super viewDidLoad];
     self.title = @"Magno 创建自定义ViewController";
-    double width = 100;
+    double width = 200;
     double height = 100;
     double x = self.view.frame.size.width/2 - width/2;
     double y = self.view.frame.size.height/2 - height/2;
-    UIView *view = CustomView.alloc().initWithFrame:(CGRectMake(x, y, width, height));
-    self.view.addSubview:(view);
-    view.backgroundColor = UIColor.redColor();
+    UIView *view = [[CustomView alloc] initWithFrame:CGRectMake(x, y, width, height)];
+    [self.view addSubview:view];
+    view.backgroundColor = [UIColor redColor];
     self.rotateView = view;
     
     
-    UILabel *label = UILabel.alloc().initWithFrame:(CGRectMake(10, 80, 350, 600));
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 80, 350, 600)];
     label.numberOfLines = 100;
     label.text =@"  长文本测试 :   select()机制中提供一fd_set的数据结构，实际上是一long类型的数组，每一个数组元素都能与一打开的文件句柄（不管是socket句柄，还是其他文件或命名管道或设备句柄）建立联系，建立联系的工作由程序员完成，当调用select()时，由内核根据IO状态修改fd_set的内容，由此来通知执行了select()的进程哪一socket或文件发生了可读或可写事件。select()机制中提供一fd_set的数据结构，实际上是一long类型的数组，每一个数组元素都能与一打开的文件句柄（不管是socket句柄，还是其他文件或命名管道或设备句柄）建立联系，建立联系的工作由程序员完成，当调用select()时，由内核根据IO状态修改fd_set的内容，由此来通知执行了select()的进程哪一socket或文件发生了可读或可写事件。select()机制中提供一fd_set的数据结构，实际上是一long类型的数组，每一个数组元素都能与一打开的文件句柄（不管是socket句柄，还是其他文件或命名管道或设备句柄）建立联系，建立联系的工作由程序员完成，当调用select()时，由内核根据IO状态修改fd_set的内容，由此来通知执行了select()的进程哪一socket或文件发生了可读或可写事件。select()机制中提供一fd_set的数据结构，实际上是一long类型的数组，每一个数组元素都能与一打开的文件句柄（不管是socket句柄，还是其他文件或命名管道或设备句柄）建立联系，建立联系的工作由程序员完成，当调用select()时，由内核根据IO状态修改fd_set的内容，由此来通知执行了select()的进程哪一socket或文件发生了可读或可写事件。";
-    self.view.addSubview:(label);
+    [self.view addSubview:label];
     
 
 
     __weak id weakSelf = self;
     self.block = ^{
         __strong ids strongSelf = weakSelf;
-        NSLog(strongSelf.class());
+        NSLog(@"%@",strongSelf.class());
     };
 
-    UIButton *btn = UIButton.alloc().initWithFrame:(CGRectMake(100, 300, 200, 50));
-    btn.setBackgroundColor:(UIColor.redColor());
-    btn.setTitle:forState:(@"test btn click", UIControlStateNormal);
-    btn.addTarget:action:forControlEvents:(self, @selector(btnDidClicked:), UIControlEventTouchUpInside);
-    self.view.addSubview:(btn);
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 300, 200, 50)];
+    [btn setBackgroundColor:[UIColor redColor]];
+    [btn setTitle:@"test btn click" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(btnDidClicked:)  forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 
 }
 
 - (void)btnDidClicked:(id)btn {
-    NSLog(@"%@", btn);
+    NSLog(@"btnDidClicked:%@", btn);
 }
 
 }
 
 class SomClass2 : SomClass1 {
 -(instancetype)initWithFrame:(CGRect)frame configuration:(WKWebViewConfiguration *)configuration {
-    self = super.initWithFrame:configuration:(frame,configuration);
+    self = [super initWithFrame:frame configuration:configuration];
     return self;
 }
 
@@ -404,15 +403,14 @@ class SomClass2 : SomClass1 {
 class WebKitViewController : UIViewController {
 
 - (void)viewDidLoad {
-    super.viewDidLoad();
-    
-    self.view.backgroundColor = UIColor.redColor();
-    WKWebView *webView = WKWebView.alloc().initWithFrame:(self.view.bounds);
-    self.view.addSubview:(webView);
+    [super viewDidLoad];
+    self.view.backgroundColor = [UIColor redColor];
+    WKWebView *webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:webView];
     webView.navigationDelegate = self;
-    NSURL *url = NSURL.URLWithString:(@"https://www.baidu.com");
-    NSURLRequest *request = NSURLRequest.requestWithURL:(url);
-    webView.loadRequest:(request);
+    NSURL *url = [NSURL URLWithString:@"https://www.baidu.com"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [webView loadRequest:request];
 }
 
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(@Signature("v16@?0q8") Block)decisionHandler {

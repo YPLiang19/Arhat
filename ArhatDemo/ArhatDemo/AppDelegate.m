@@ -86,7 +86,7 @@ static NSData *aesEncrypt(NSData *data ,NSString *key, NSString *iv) {
         return NO;
     }
     
-    NSString *token = @"";
+    NSString *token = @"/lYr37XYdiAO8mhOLdo5PFT/+STO79xkQ4FKFHZnKHGj+PkkzEK36iRb3x+zq19yF37ubFWuaSSPF6SiHrDegyqYK91xUM0QywHXQ5JyiGep/l5CBh/tIVVw/+FF31vwjEay8jeWABs8OScy6Ny9A7x6dBQSR+5Kae0Qe/RbCxMJVFvpaIW2UlUyZiaJ1RVObPKkhry18uGsUa1flBQxWEurcrHoIDdO665N+Gq5PCi2W/FoEJVRHk6dnTBXONhtw2fvokeQiw+buKAVLXIvjZuc3B/iWBUuf1rd3D6j/xaQjNRtFpecH4FF6cmf/a6Hqr3NJ7W4lGV5U7DHH7JopKisFpFUsszf5uA9+ZPiPeo=";
     
     ARHATContext *context = [[ARHATContext alloc] initKey1:aes128Key key2:aes128Iv token:token];
 

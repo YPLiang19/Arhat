@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		68BF5F5F43DE5D05AFA18342006666E7 /* PBXContainerItemProxy */ = {
+		959D99F1924773BCE6726CF4D2C53672 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,21 +37,23 @@
 
 /* Begin PBXFileReference section */
 		1966AECD23E2F71547995DF114F9F357 /* Pods-ArhatDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArhatDemo-dummy.m"; sourceTree = "<group>"; };
-		3741860A66D9D84C81D02528C587EFB6 /* Arhat-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Arhat-xcframeworks.sh"; sourceTree = "<group>"; };
+		3256D4056E53606F625FDA7BD2EAC895 /* Arhat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arhat.release.xcconfig; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4277EFA46D591F5E8ED5C2EF29D74170 /* Arhat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Arhat.xcframework; sourceTree = "<group>"; };
 		4CD28DC1416BE56CA83DEAF3D671D875 /* Pods-ArhatDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ArhatDemo"; path = Pods_ArhatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B66169634947CA0B52745895002A7C1 /* Pods-ArhatDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArhatDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E6BE0865E70A56AB887BE8CA9F02984 /* Pods-ArhatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArhatDemo.release.xcconfig"; sourceTree = "<group>"; };
 		70B037762FC539D33BED4EF123402950 /* Pods-ArhatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArhatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		819470EA321C20DFA9A506C515F980E9 /* Arhat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arhat.debug.xcconfig; sourceTree = "<group>"; };
 		82CA680E17AE0FF4A671D214A88053C2 /* Pods-ArhatDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArhatDemo-umbrella.h"; sourceTree = "<group>"; };
+		992B43A252C15C0AA265700DCDAB62D0 /* Arhat-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Arhat-xcframeworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0831EFDFFDB775579F1D3C152DBE60C /* Pods-ArhatDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArhatDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A47EFBB8B810C47A13D5B82A8E7E7BCB /* Arhat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arhat.release.xcconfig; sourceTree = "<group>"; };
+		A63EEA09BD993532AAF8E6FDD5D76981 /* README-CN.md */ = {isa = PBXFileReference; includeInIndex = 1; path = "README-CN.md"; sourceTree = "<group>"; };
 		A82218AA2EBEDF1C90C77D42E617E188 /* Pods-ArhatDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArhatDemo-Info.plist"; sourceTree = "<group>"; };
-		AC653D9FADF0E820C0B9C2AB8A127C1C /* Arhat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Arhat.xcframework; sourceTree = "<group>"; };
 		CE438061D75B4B0498E2AE15B4E103F8 /* Pods-ArhatDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArhatDemo.modulemap"; sourceTree = "<group>"; };
 		ECB62253EBF44B04964E0CAB79C1D33F /* Pods-ArhatDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArhatDemo-frameworks.sh"; sourceTree = "<group>"; };
-		F590A665C61AD92E184939FAD81F6C32 /* Arhat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arhat.debug.xcconfig; sourceTree = "<group>"; };
+		F8C163452F88824BCD3BBE0CC91C1389 /* Arhat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Arhat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,14 +76,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		36C712648A65A8251DA66BDDB42394AD /* Arhat */ = {
+		6F13FC684590FA377BEE92079256C066 /* Arhat */ = {
 			isa = PBXGroup;
 			children = (
-				80A3D6AF6318380BFC76E45B2B293A6D /* Frameworks */,
-				B5F7A45876B1572363E64DE0820EB94A /* Support Files */,
+				858AD2CE91F943C73335A8012AD15BA9 /* Frameworks */,
+				91D1B12C258E8B9EB436325E7486D2A0 /* Pod */,
+				F00F6822DCE3E38C3B0E95E10CC56688 /* Support Files */,
 			);
 			name = Arhat;
-			path = Arhat;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		78E349822EE77D95F9E9BDAB2690E8DB /* Pods-ArhatDemo */ = {
@@ -101,31 +104,29 @@
 			path = "Target Support Files/Pods-ArhatDemo";
 			sourceTree = "<group>";
 		};
-		80A3D6AF6318380BFC76E45B2B293A6D /* Frameworks */ = {
+		858AD2CE91F943C73335A8012AD15BA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AC653D9FADF0E820C0B9C2AB8A127C1C /* Arhat.xcframework */,
+				4277EFA46D591F5E8ED5C2EF29D74170 /* Arhat.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A22E868D9E44CDE911D45EA470397DCB /* Pods */ = {
+		8781CA45025ED1F1E409BC8D23376504 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				36C712648A65A8251DA66BDDB42394AD /* Arhat */,
+				6F13FC684590FA377BEE92079256C066 /* Arhat */,
 			);
-			name = Pods;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B5F7A45876B1572363E64DE0820EB94A /* Support Files */ = {
+		91D1B12C258E8B9EB436325E7486D2A0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3741860A66D9D84C81D02528C587EFB6 /* Arhat-xcframeworks.sh */,
-				F590A665C61AD92E184939FAD81F6C32 /* Arhat.debug.xcconfig */,
-				A47EFBB8B810C47A13D5B82A8E7E7BCB /* Arhat.release.xcconfig */,
+				F8C163452F88824BCD3BBE0CC91C1389 /* Arhat.podspec */,
+				A63EEA09BD993532AAF8E6FDD5D76981 /* README-CN.md */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Arhat";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C304601EA4049CAC6E5669D0BEE3A246 /* Products */ = {
@@ -140,8 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8781CA45025ED1F1E409BC8D23376504 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A22E868D9E44CDE911D45EA470397DCB /* Pods */,
 				C304601EA4049CAC6E5669D0BEE3A246 /* Products */,
 				2E4F752C05BEBE1CF1C8AF2500F0DE40 /* Targets Support Files */,
 			);
@@ -161,6 +162,17 @@
 				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F00F6822DCE3E38C3B0E95E10CC56688 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				992B43A252C15C0AA265700DCDAB62D0 /* Arhat-xcframeworks.sh */,
+				819470EA321C20DFA9A506C515F980E9 /* Arhat.debug.xcconfig */,
+				3256D4056E53606F625FDA7BD2EAC895 /* Arhat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "ArhatDemo/Pods/Target Support Files/Arhat";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +201,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3A413F05A98EABFF82D89B6D5AEFBB4D /* PBXTargetDependency */,
+				71A4294D70D76C9D9F32D4F8E75E4843 /* PBXTargetDependency */,
 			);
 			name = "Pods-ArhatDemo";
 			productName = Pods_ArhatDemo;
@@ -206,7 +218,7 @@
 				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -268,11 +280,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3A413F05A98EABFF82D89B6D5AEFBB4D /* PBXTargetDependency */ = {
+		71A4294D70D76C9D9F32D4F8E75E4843 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Arhat;
 			target = 4D0937C7A6665D498478A79314ADCB04 /* Arhat */;
-			targetProxy = 68BF5F5F43DE5D05AFA18342006666E7 /* PBXContainerItemProxy */;
+			targetProxy = 959D99F1924773BCE6726CF4D2C53672 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,7 +432,7 @@
 		};
 		9D70579B41B2A94C3D20C0CEF84936B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A47EFBB8B810C47A13D5B82A8E7E7BCB /* Arhat.release.xcconfig */;
+			baseConfigurationReference = 3256D4056E53606F625FDA7BD2EAC895 /* Arhat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -505,7 +517,7 @@
 		};
 		C82D6951AB5E5B4A7105A9D182E2FC59 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F590A665C61AD92E184939FAD81F6C32 /* Arhat.debug.xcconfig */;
+			baseConfigurationReference = 819470EA321C20DFA9A506C515F980E9 /* Arhat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
